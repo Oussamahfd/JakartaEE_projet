@@ -1,0 +1,56 @@
+.pagination {
+    display: flex;
+    font-family: sans-serif;
+    margin-top: -30px;
+}
+
+.pagination ul {
+    background-color: black;
+    display: flex;
+    padding: 5px 10px; /* Reduced padding */
+    border-radius: 25px; /* Reduced border radius */
+}
+
+.pagination ul li {
+    list-style: none;
+    line-height: 30px; /* Reduced line height */
+    margin: 0 3px; /* Reduced margin */
+}
+
+.pagination ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    font-size: 14px; /* Reduced font size */
+}
+
+.pagination ul li.page {
+    width: 30px; /* Reduced width */
+    height: 30px; /* Reduced height */
+    line-height: 30px;
+    text-align: center;
+}
+
+.pagination ul li.page:hover a {
+    background: #5AB25E;
+    color: black;
+    font-weight: bold;
+}
+
+.pagination ul li.Previous:hover a,
+.pagination ul li.Next:hover a {
+    color: #5AB25E;
+}
+
+.pagination ul li.Previous {
+    margin-right: 10px; /* Reduced margin */
+    font-weight: bold;
+    font-size: 16px; /* Reduced font size */
+}
+
+.pagination ul li.Next {
+    margin-left: 10px; /* Reduced margin */
+    font-weight: bold;
+    font-size: 16px; /* Reduced font size */
+}

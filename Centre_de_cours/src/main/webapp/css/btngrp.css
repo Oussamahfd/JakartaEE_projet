@@ -1,0 +1,45 @@
+.search-container {
+    font-family: 'Arial', sans-serif;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 60%;
+}
+
+.education-level {
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.education-level option:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.search-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 3px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+ 
+.opt{
+	    background-color: black;
+    color: white; 
+}
+
+.education-level{
+	    border: none;
+    border-radius: 10px
+}
+
+
+
+
